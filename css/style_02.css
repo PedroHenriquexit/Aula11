@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+    color: #333;
+}
+
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.principal{
+    max-width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    padding: 0 2rem;
+}
+
+
+.texto{
+    flex: 1;
+}
+
+.texto h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.texto p{
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+
+.botaoo{
+    display: flex;
+    gap: 1rem;
+}
+
+.botaoescuro{
+    background: #444;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+}
+
+.botaoclaro{
+    background: white;
+    color: #444;
+    border: 1px solid #444;
+    padding: 12px 28px;
+    border-radius: 8px;
+}
+
+.imagem{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem img{
+    width: 100%;
+    max-width: 550px;
+}
